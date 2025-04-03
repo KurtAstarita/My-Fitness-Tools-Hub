@@ -27,22 +27,22 @@
     </header>
     <main>
 <iframe
-allowfullscreen=""
+src="https://kurtastarita.github.io/Ultimate-Full-Body-Workout-Generator/"
+style="width: 100%; height: 20000px; border: 1px solid #ccc;"
 frameborder="0"
-src="https://kurtastarita.github.io/Ultimate-Workout-Log/"
-style="width: 100%; height: 1200px; border: 1px solid #ccc;"
+allowfullscreen
+allow="clipboard-write"
 ></iframe>
 <style>
 @media (max-width: 600px) {
-#workout-log .workout-entry {
-display: block;
+#workout-container {
+flex-direction: column;
 }
-#workout-log .workout-entry input {
+#exercise-list {
 width: 100%;
-margin-bottom: 5px;
 }
-#workout-log .header {
-display: none;
+#generate-button {
+font-size: 1.2em;
 }
 }
 </style>
